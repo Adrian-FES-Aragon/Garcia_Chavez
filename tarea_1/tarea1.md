@@ -1,4 +1,4 @@
-Sistemas de Información:
+## Sistemas de Información:
 	
 Debido al paso del tiempo, los sistemas de información han pasado a ser mayormente virtuales, incluso hasta al punto en el que no nos damos cuenta de su existencia en la vida
 cotidiana. Nos encontramos con sistemas de información diariamente, por ejemplo en celulares, laptops, computadoras de escritorio, redes de internet en alguna institución

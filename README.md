@@ -1,4 +1,4 @@
-## Infomacion general
+## Infomación general:
 - **Asignatura: Sistemas de información**
 - **Grupo: 2860**
 - **No. cta: 314070140**

@@ -1,12 +1,15 @@
 <?php header("Content-type: text/css");
 
 //Creo un array con varios colores
-$color[0]='#ff0000';
-$color[1]='#00ff00';
-$color[2]='#0000ff';
+$color[0]='#FF5733';
+$color[1]='#33E0FF';
+$color[2]='#8D33FF';
+$color[3]='#FFCA33';
+$color[4]='#90FF33';
+$color[5]='#335BFF';
 
 // Elijo un color aleatorio
-$i=rand(0,2);
+$i=rand(0,5);
 ?>
 
 /* indico donde quiero que aparezca el color aleatorio */

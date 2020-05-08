@@ -19,7 +19,7 @@ body {
 }
 .container{
     position: relative;
-    width: 20%;
+    width: 100%;
 }
 .container2{
     position: relative;

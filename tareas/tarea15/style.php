@@ -39,14 +39,8 @@ body {
 .imagen{
     opacity: 1;
     display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-.imagen2{
-    opacity: 1;
-    display: block;
+    width: 600px;
+    height: 300px;
     transition: .5s ease;
     backface-visibility: hidden;
 }

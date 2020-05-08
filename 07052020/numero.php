@@ -11,9 +11,9 @@
 <body>
     <form action="logica.php"></form>
     <br>
-    Ingrese el primer numero: <input type="num1"><br>
-    Ingrese el segundo numero: <input type="num2"><br>
-    Ingrese el tercer numero: <input type="num3"><br>
+    Ingrese el primer numero: <input name="num1"><br>
+    Ingrese el segundo numero: <input name="num2"><br>
+    Ingrese el tercer numero: <input name="num3"><br>
 
 </body>
 

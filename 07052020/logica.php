@@ -7,7 +7,11 @@ $resultado = $dato1+$dato2+$dato3;
 echo"Resultado es: ".$resultado;
 
 echo"
-<table align= 'center'>
-    <tr><td style= 'border: 2px solid black; background-color:red; ' > <h1> El resultado es: ".$resultado." </h1></td></tr>
-    </table>";
+<table align='center'>
+    <tr>
+         <td style='border: 2px solid black; background-color:red; ' > 
+            <h1> El resultado es: ".$resultado." </h1>
+        </td>
+    </tr>
+</table>";
 ?>

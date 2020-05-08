@@ -14,7 +14,7 @@
             <br>
             <h1>Vence a Gon en su propio juego!</h1>
             <br>
-            <div class="container" align="center">
+            <div class="container2" align="center">
                 <br>
                 <img src="images/challenge.gif" alt="Piedra" class="imagen" style="width: 100%">
                 <br>

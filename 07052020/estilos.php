@@ -28,7 +28,7 @@ div{
     background-color: <?=$color[$u]?>;
     border: 5px solid white;
     height: auto;
-    weight: 50%;
+    width: 50%;
     text-align: center;
 }
 table{

@@ -21,7 +21,7 @@ body {
     position: relative;
     width: 20%;
 }
-.container{
+.container2{
     position: relative;
     width: 40%;
 }

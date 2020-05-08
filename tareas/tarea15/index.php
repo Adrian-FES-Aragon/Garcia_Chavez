@@ -32,9 +32,9 @@
                         </div>
                     </td>
 
-                    <td>
+                    <td class="td1">
                         <div class="container">
-                            <img src="images/papel.jpg" alt="Piedra" class="imagen" style="width: 100%">
+                            <img src="images/papel.jpg" alt="Papel" class="imagen" width="600" height="400">>
                             <div class="middle">
                                 <button class="btn">¡PAPEL!</button>
                             </div>
@@ -43,7 +43,7 @@
 
                     <td>
                         <div class="container">
-                            <img src="images/tijeras.jpg" alt="Piedra" class="imagen" style="width: 100%">
+                            <img src="images/tijeras.jpg" alt="Tijeras" class="imagen" style="width: 100%">
                             <div class="middle">
                                 <button class="btn">¡TIJERAS!</button>
                             </div>

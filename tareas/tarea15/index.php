@@ -21,22 +21,37 @@
                 <h1>Escoje tu siguiente movimiento!</h1>
                 <br>
             </div>
-            <div class="container">
-                <img src="images/roca.png" alt="Piedra" class="imagen" style="width: 100%">
-                <div class="middle">
-                    <button class="btn">¡PIEDRA!</button>
-                </div>
-        
-                <img src="images/papel.jpg" alt="Piedra" class="imagen" style="width: 100%">
-                <div class="middle">
-                    <button class="btn">¡PAPEL!</button>
-                </div>
-       
-                <img src="images/tijeras.jpg" alt="Piedra" class="imagen" style="width: 100%">
-                <div class="middle">
-                    <button class="btn">¡TIJERAS!</button>
-                </div>
-            </div>
+            <table>
+                <tr>
+                    <td>
+                        <div class="container">
+                            <img src="images/roca.png" alt="Piedra" class="imagen" style="width: 100%">
+                            <div class="middle">
+                                <button class="btn">¡PIEDRA!</button>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="container">
+                            <img src="images/papel.jpg" alt="Piedra" class="imagen" style="width: 100%">
+                            <div class="middle">
+                                <button class="btn">¡PAPEL!</button>
+                            </div>
+                        </div>
+                    </td>
+
+                    <td>
+                        <div class="container">
+                            <img src="images/tijeras.jpg" alt="Piedra" class="imagen" style="width: 100%">
+                            <div class="middle">
+                                <button class="btn">¡TIJERAS!</button>
+                            </div>
+                        </div>
+                    </td>
+
+                </tr>
+            </table>
         </form>
     </div>
 </body>

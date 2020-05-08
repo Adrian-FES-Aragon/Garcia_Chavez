@@ -11,3 +11,8 @@ $i=rand(0,2);
 
 /* indico donde quiero que aparezca el color aleatorio */
 body { background-color: <?=$color[$i]?>;}
+h1 {
+    color: black;
+    font-size: 3em;
+    font-weight: lighter;
+}

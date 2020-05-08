@@ -30,7 +30,7 @@ div{
     height: auto;
     width: 50%;
     justify-content: center;
-    margin-left: -35%;
+    margin-right: -35%;
 }
 table{
     text-aling: center;

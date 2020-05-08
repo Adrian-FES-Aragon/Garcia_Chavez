@@ -7,9 +7,9 @@ $dato3 = $_GET["num3"];
 $resultado = $dato1+$dato2+$dato3;
 
 echo"
-<table class='table1'>
+<table>
     <tr>
-         <td  ' > 
+         <td> 
             <h1> El resultado es: ".$resultado." </h1>
         </td>
     </tr>

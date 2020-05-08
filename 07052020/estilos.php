@@ -23,7 +23,8 @@ h1 {
     font-weight: lighter;
 }
 div{ 
-    background-color: #ac4fac;
+
+    background-color: <?=$color[$i]?>;
     border: 5px solid white;
     height: auto;
     text-align: center;

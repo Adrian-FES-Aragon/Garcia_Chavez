@@ -28,9 +28,6 @@ body {
 .container:hover .imagen {
   opacity: 0.3;
 }
-.container:hover .imagen2 {
-  opacity: 0.3;
-}
 
 .container:hover .middle {
   opacity: 1;
@@ -76,4 +73,5 @@ table.table1 {
     width: 100%;
     height: auto;
     border-spacing: 5px;
+    background-color:<?=$color[$u]?>;
 }

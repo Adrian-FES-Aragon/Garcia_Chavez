@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <div>
+    <div align="center">
         <form action="logic.php">
             <br>
             <h1>Vence a Gon en su propio juego!</h1>

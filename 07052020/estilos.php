@@ -30,3 +30,9 @@ div{
     height: auto;
     text-align: center;
 }
+table1{
+    text-aling: center;
+    background-color:#FF5733;
+    border: 2px solid black
+
+}

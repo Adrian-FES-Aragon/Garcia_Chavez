@@ -11,9 +11,9 @@
 <body> 
     <form action="logica.php">
     <br>
-    <h1>Ingrese el primer numero:</h1>  <input name="num1"><br>
-    <h1>Ingrese el segundo numero:</h1> <input name="num2"><br>
-    <h1>Ingrese el tercer numero:</h1>  <input name="num3"><br>
+    <h1>Ingrese el primer numero:  <input name="num1"><br></h1>
+    <h1>Ingrese el segundo numero: <input name="num2"><br></h1>
+    <h1>Ingrese el tercer numero:  <input name="num3"><br></h1>
 
     <button><h1>Resultado de la suma</h1></button>
     </form>

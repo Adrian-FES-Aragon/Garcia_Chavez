@@ -18,6 +18,7 @@
     <br><br>
 
     <button align="center"><h2>Resultado de la suma</h2></button>
+    <br><br>
     </form>
     </div>
 </body>

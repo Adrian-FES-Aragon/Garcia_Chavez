@@ -19,7 +19,7 @@ body {
 }
 .container{
     position: relative;
-    width: 50%;
+    width: 20%;
 }
 .container:hover .image {
   opacity: 0.3;

@@ -9,12 +9,13 @@
 </head>
 
 <body>
-    <form action="logica.php"></form>
+    <form action="logica.php">
     <br>
     Ingrese el primer numero: <input name="num1"><br>
     Ingrese el segundo numero: <input name="num2"><br>
     Ingrese el tercer numero: <input name="num3"><br>
 
+    </form>
 </body>
 
 </html>

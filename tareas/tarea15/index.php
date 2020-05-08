@@ -27,6 +27,18 @@
                     <button class="btn">¡PIEDRA!</button>
                 </div>
             </div>
+            <div class="container">
+                <img src="images/papel.jpg" alt="Piedra" class="imagen" style="width: 100%">
+                <div class="middle">
+                    <button class="btn">¡PIEDRA!</button>
+                </div>
+            </div>
+            <div class="container">
+                <img src="images/tijeras.jpg" alt="Piedra" class="imagen" style="width: 100%">
+                <div class="middle">
+                    <button class="btn">¡PIEDRA!</button>
+                </div>
+            </div>
         </form>
     </div>
 </body>

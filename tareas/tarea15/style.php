@@ -21,6 +21,14 @@ body {
     position: relative;
     width: 50%;
 }
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
 .imagen{
     opacity: 1;
     display: block;

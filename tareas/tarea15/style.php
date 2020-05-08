@@ -25,7 +25,10 @@ body {
     position: relative;
     width: 40%;
 }
-.container:hover .image {
+.container:hover .imagen {
+  opacity: 0.3;
+}
+.container:hover .imagen2 {
   opacity: 0.3;
 }
 
@@ -38,6 +41,12 @@ body {
     display: block;
     width: 100%;
     height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.imagen2{
+    opacity: 1;
+    display: block;
     transition: .5s ease;
     backface-visibility: hidden;
 }

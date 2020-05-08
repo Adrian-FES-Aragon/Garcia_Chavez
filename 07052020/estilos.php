@@ -29,6 +29,7 @@ div{
     border: 5px solid white;
     height: auto;
     width: 50%;
+    justify-content: center;
     text-align: center;
 }
 table{

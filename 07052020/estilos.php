@@ -10,6 +10,7 @@ $color[5]='#335BFF';
 
 // Elijo un color aleatorio
 $i=rand(0,5);
+$u=rand(5,0);
 ?>
 
 /* indico donde quiero que aparezca el color aleatorio */
@@ -24,7 +25,7 @@ h1 {
 }
 div{ 
 
-    background-color: <?=$color[$i]?>;
+    background-color: <?=$color[$u]?>;
     border: 5px solid white;
     height: auto;
     text-align: center;

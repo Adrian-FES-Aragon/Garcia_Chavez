@@ -28,9 +28,9 @@ div{
     background-color: <?=$color[$u]?>;
     border: 5px solid white;
     height: auto;
-    width: 50%;
+    width: 40%;
     position:absolute;
-    left: 10%;
+    left: 30%;
     right: 10%;
     text-align:center;
 }

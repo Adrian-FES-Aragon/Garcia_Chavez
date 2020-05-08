@@ -9,6 +9,7 @@
 </head>
 
 <body> 
+    <div>
     <form action="logica.php">
     <br>
     <h1>Ingrese el primer numero:</h1>  <input name="num1">
@@ -18,6 +19,7 @@
 
     <button align="center"><h2>Resultado de la suma</h2></button>
     </form>
+    </div>
 </body>
 
 </html>

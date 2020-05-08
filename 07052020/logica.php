@@ -1,6 +1,5 @@
 <?php
 
-echo '<link rel="stylesheet" href="https://github.com/Adrian-ICO/Garcia_Chavez/tree/master/tareas/tarea14/css">'
 $dato1 = $_GET["num1"];
 $dato2 = $_GET["num2"];
 $dato3 = $_GET["num3"];

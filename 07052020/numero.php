@@ -15,7 +15,7 @@
     <h1>Ingrese el segundo numero:</h1> <input name="num2">
     <h1>Ingrese el tercer numero:</h1>  <input name="num3"><br>
 
-    <button><h2>Resultado de la suma</h2></button>
+    <button align="center"><h2>Resultado de la suma</h2></button>
     </form>
 </body>
 

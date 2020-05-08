@@ -16,6 +16,7 @@ $u=rand(5,0);
 /* indico donde quiero que aparezca el color aleatorio */
 body { 
     background-color: <?=$color[$i]?>;
+    justify-content: center;
 }
 
 h1 {
@@ -30,7 +31,7 @@ div{
     height: auto;
     width: 50%;
     justify-content: center;
-    margin-right: -35%;
+  
 }
 table{
     text-aling: center;

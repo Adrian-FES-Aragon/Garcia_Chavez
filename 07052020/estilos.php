@@ -13,6 +13,6 @@ $i=rand(0,2);
 body { background-color: <?=$color[$i]?>;}
 h1 {
     color: black;
-    font-size: 3em;
+    font-size: 2em;
     font-weight: lighter;
 }

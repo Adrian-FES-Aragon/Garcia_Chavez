@@ -14,4 +14,5 @@ echo"
         </td>
     </tr>
 </table>";
+echo "<body>";
 ?>

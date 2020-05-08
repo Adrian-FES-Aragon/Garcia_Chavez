@@ -69,3 +69,8 @@ body {
     background-color: black;
     color: white;
 }
+table.table1 {
+    width: 100%;
+    height: auto;
+    border-spacing: 5px;
+}

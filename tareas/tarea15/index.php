@@ -21,7 +21,7 @@
                 <h1>Escoje tu siguiente movimiento!</h1>
                 <br>
             </div>
-            <table>
+            <table class="table1">
                 <tr>
                     <td>
                         <div class="container">

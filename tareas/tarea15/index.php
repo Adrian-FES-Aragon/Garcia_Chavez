@@ -34,7 +34,7 @@
 
                     <td class="td1">
                         <div class="container">
-                            <img src="images/papel.png" alt="Papel" class="imagen2" width="600" height="400">>
+                            <img src="images/papel.png" alt="Papel" class="imagen2" width="600" height="300">>
                             <div class="middle">
                                 <button class="btn">¡PAPEL!</button>
                             </div>

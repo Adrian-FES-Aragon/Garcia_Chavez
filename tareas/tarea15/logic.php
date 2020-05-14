@@ -3,10 +3,11 @@
 $opt[0] = $_POST['evento_piedra'];
 $opt[1] = $_POST['evento_papel'];
 $opt[2] = $_POST['evento_tijeras'];
-$i = rand(0, 2);
 
-echo "i: " . $i;
-echo "opt: " . $opt;
+$i = rand(0,2);
+
+echo "i: $i";
+echo "opt:  $opt";
 
 if ($i == $opt) {
     echo "Gon ha elegido lo mismo! es un empate, considerate afortunado";

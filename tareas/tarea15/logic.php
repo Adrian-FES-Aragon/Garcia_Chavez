@@ -1,4 +1,7 @@
 <?php
+$rock= $_POST['evento_piedra'];
+$paper= $_POST['evento_papel'];
+$knife= $_POST['evento_tijeras'];
 
 $opt[0] = $_POST['evento_piedra'];
 $opt[1] = $_POST['evento_papel'];
@@ -8,6 +11,13 @@ $i = rand(0,2);
 
 echo "i: $i";
 echo "opt:  $opt";
+
+$a= array(
+    0=> $rock,
+    1=> $paper,
+    2=> $knife,
+);
+print_r(array_values($a));
 
 if ($i == $opt) {
     echo "Gon ha elegido lo mismo! es un empate, considerate afortunado";

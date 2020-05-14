@@ -24,3 +24,4 @@ if ($i == $opt) {
 } else {
     echo "¡FELICIDADES HAS GANADO!";
 }
+?>

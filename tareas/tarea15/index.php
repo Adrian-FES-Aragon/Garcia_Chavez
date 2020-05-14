@@ -11,7 +11,7 @@
 
 <body>
     <div align="center">
-        <form action="logic.php" method="POST">
+        <form action="logic.php">
             <br>
             <h1>Vence a Gon en su propio juego!</h1>
             <br>

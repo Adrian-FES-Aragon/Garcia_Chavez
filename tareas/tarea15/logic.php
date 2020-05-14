@@ -1,13 +1,10 @@
 <?php
 
-$rock = $_POST['evento_piedra'];
-$paper = $_POST['evento_papel'];
-$knife = $_POST['evento_tijeras'];
-
-$opt[0] = $rock;
-$opt[1] = $paper;
-$opt[2] = $knife;
+$opt[0] = $_POST['evento_piedra'];
+$opt[1] = $_POST['evento_papel'];
+$opt[2] = $_POST['evento_tijeras'];
 $i = rand(0, 2);
+
 echo "i: " . $i;
 echo "opt: " . $opt;
 

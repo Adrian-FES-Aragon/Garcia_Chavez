@@ -1,13 +1,18 @@
 <?php
 
-$opt[0] = $_GET['evento_piedra'];
-$opt[1] = $_GET['evento_papel'];
-$opt[2] = $_GET['evento_tijeras'];
+$opt0 = $_POST['evento_piedra'];
+$opt1 = $_POST['evento_papel'];
+$opt2 = $_POST['evento_tijeras'];
+
+$x[0] = $_GET['evento_piedra'];
+$x[1] = $_GET['evento_papel'];
+$x[2] = $_GET['evento_tijeras'];
 
 $i = rand(0,2);
 
 echo "i: $i";
 echo "opt:  $opt";
+print_r(array_values($x));
 
 if ($i == $opt) {
     echo "Gon ha elegido lo mismo! es un empate, considerate afortunado";

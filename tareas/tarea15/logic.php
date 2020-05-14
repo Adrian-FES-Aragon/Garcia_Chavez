@@ -1,8 +1,8 @@
 <?php
 
-$choice[0] = $_POST['evento_piedra'];
-$choice[1] = $_POST['evento_papel'];
-$choice[2] = $_POST['evento_tijeras'];
+$choice[0] = $_POST["evento_piedra"];
+$choice[1] = $_POST["evento_papel"];
+$choice[2] = $_POST["evento_tijeras"];
 
 $i = rand(0, 2);
 

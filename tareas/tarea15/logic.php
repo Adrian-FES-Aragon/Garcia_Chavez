@@ -11,7 +11,7 @@ $x[2] = $_GET['evento_tijeras'];
 $i = rand(0,2);
 
 echo "i: $i";
-echo "opt:  $opt";
+echo "opt:  $opt";  
 print_r(array_values($x));
 
 if ($i == $opt) {

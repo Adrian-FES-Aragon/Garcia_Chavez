@@ -1,4 +1,4 @@
-<?php
+<?php header("Content-type: text/css");
 //se usa el require para requerir obligatoriamente el archivo conexion 
 require("conexion.php");
 //no es requisito obligatorio, independiente de los erroes
@@ -14,7 +14,7 @@ $resultado = $conexion->query($consulta_sql);
 //retorna el numero de filas del resultado. Si encuentra más de uno lo usamos para imprimir el resultado en nuestra tabla
 $count = mysqli_num_rows($resultado);
 
-echo "<table style='border: 2px solid black;'>
+echo "<table text-align:center;>
 <tr>
     <th>Usuario</th>
     <th>Carrera</th>
@@ -48,3 +48,9 @@ if ($count > 0) {
     echo "<h1> style='color:red' Sin ningun registro</h1>";
 }
 ?>
+table{
+    style=border: 2px solid black;
+    width: 100%;
+    height: auto;
+    border-spacing: 5px;
+}

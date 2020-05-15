@@ -5,9 +5,9 @@ $opt1 = $_POST['evento_papel'];
 $opt2 = $_POST['evento_tijeras'];
 
 echo "i: $i<br>";
-echo "opt:  $opt0 <br>";
-echo "opt:  $opt1 <br>";
-echo "opt:  $opt2 <br>";
+echo "opt:" .$opt0. "<br>";
+echo "opt:" .$opt1. "<br>";
+echo "opt:" .$opt2 ."<br>";
 
 
 

@@ -1,4 +1,4 @@
-<?php header("Content-type: text/css");
+<?php 
 //se usa el require para requerir obligatoriamente el archivo conexion 
 require("conexion.php");
 //no es requisito obligatorio, independiente de los erroes

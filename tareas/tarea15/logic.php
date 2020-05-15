@@ -10,7 +10,7 @@ if (isset($_POST['evento_piedra'])) {
     echo $rand;  
 
     if($evento_piedra==$rand){
-        echo "ES UN EMPATE!" ;
+        echo "".'<br>'. "ES UN EMPATE!" ;
     }
 }
 

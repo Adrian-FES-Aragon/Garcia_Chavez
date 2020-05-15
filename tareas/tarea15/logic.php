@@ -30,9 +30,8 @@ $colores = array("rojo", "azul", "amarillo", "verde", "negro", "blanco");
 echo "Valor aleatorio: " . $colores[array_rand($colores)];
 */
 $power = array($evento_papel, $evento_piedra, $evento_tijeras);
-echo "POWER: " . $power[array_rand($power)];
 $rand= $power[array_rand($power)];
-echo "RAND: " .$rand;  
+echo "Poder: " .$rand;  
 
 ?>
 

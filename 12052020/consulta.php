@@ -51,12 +51,12 @@ if ($count > 0) {
 
 <style type="text/css">
     table {
+        text-align: center;
         margin: 8px;
         border: 2px solid black;
         width: 100%;
         height: auto;
-        border-spacing: 5px;
-    }
+     }
     td{
         border: 2px solid black;
     }

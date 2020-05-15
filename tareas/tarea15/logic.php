@@ -10,8 +10,8 @@ echo "opt:" .$opt1. "<br>";
 echo "opt:" .$opt2 ."<br>";
 
 if(isset($_POST['evento_piedra'])) {
-    $roca=$_POST['evento_piedra: '];
-    echo "Tu nombre es: ".$roca;
+    $evento_piedra=$_POST['evento_piedra'];
+    echo "Tu nombre es: ".$evento_piedra;
 }
 
 

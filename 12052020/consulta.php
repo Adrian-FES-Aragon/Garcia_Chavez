@@ -51,13 +51,18 @@ if ($count > 0) {
 
 <style type="text/css">
     table {
-        text-align: center;
-        margin: 8px;
+        display: table;
         border: 2px solid black;
         width: 100%;
         height: auto;
-     }
-    td{
-        border: 2px solid black;
+    }
+
+    td th {
+        padding: 15px 5px;
+        display: table-cell;
+        text-align: left;
+        vertical-align: middle;
+        border: 1px solid black;
+
     }
 </style>

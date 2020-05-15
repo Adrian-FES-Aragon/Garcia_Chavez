@@ -10,7 +10,6 @@ if (isset($_POST['evento_piedra'])) {
     echo $rand;
 
     if ($evento_piedra == $rand) {
-        echo "" . '<br>' . "ES UN EMPATE!";
         echo '<script type="text/javascript">
     alert("ES UN EMPATE");
     window.location.href="index.php";

@@ -6,7 +6,7 @@ if(isset($_POST['evento_piedra'])) {
 }
 
 if(isset($_POST['evento_papel'])) {
-    $evento_papel=$_POST['evento_piedra'];
+    $evento_papel=$_POST['evento_papel'];
     echo "Tu nombre es: ".$evento_papel;
 }
 

@@ -13,6 +13,8 @@ if (isset($_POST['evento_piedra'])) {
         echo "" . '<br>' . "ES UN EMPATE!";
     }else if ($rand == "!TIJERAS¡" ) {
         echo "FELICIDADES LOGRASTE GANAR!";
+    }else{
+        echo "HAS FALLADO INTENTALO DE NUEVO";
     }
 
 } else if (isset($_POST['evento_papel'])) {

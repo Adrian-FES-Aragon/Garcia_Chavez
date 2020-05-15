@@ -5,16 +5,8 @@
 if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
     echo "Eleccion: " . $evento_piedra;
-
-    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
-    echo "POWER: " . $power[array_rand($power)];
-
-    echo "Gon escogio: " . $power;
-    
-    if ($power == $evento_piedra) {
-        echo "Es un empate";
-    }
 }
+
 
 if (isset($_POST['evento_papel'])) {
     $evento_papel = $_POST['evento_papel'];
@@ -39,6 +31,8 @@ echo "Valor aleatorio: " . $colores[array_rand($colores)];
 */
 $power = array($evento_papel, $evento_piedra, $evento_tijeras);
 echo "POWER: " . $power[array_rand($power)];
+$rand= $power[array_rand($power)];
+echo "RAND: " .$rand;  
 
 ?>
 

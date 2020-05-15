@@ -11,7 +11,10 @@ if (isset($_POST['evento_piedra'])) {
 
     if ($evento_piedra == $rand) {
         echo "" . '<br>' . "ES UN EMPATE!";
+    }else if ($rand == "!TIJERAS¡" ) {
+        echo "FELICIDADES LOGRASTE GANAR!";
     }
+
 } else if (isset($_POST['evento_papel'])) {
     $evento_papel = $_POST['evento_papel'];
     echo "TU ELEGISTE: " . $evento_papel . '<br>' . "Y GON: ";

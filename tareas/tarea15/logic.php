@@ -1,12 +1,14 @@
 <?php
 
-$power = array($evento_papel, $evento_piedra, $evento_tijeras);
-$rand= $power[array_rand($power)];
-echo "Poder: " .$rand;  
 
 if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
     echo "Eleccion: " . $evento_piedra;
+    
+    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
+    $rand= $power[array_rand($power)];
+    echo "Poder: " .$rand;  
+
     if($evento_piedra==$rand){
         echo "ES UN EMPATE!:" .$rand;
     }

@@ -34,7 +34,7 @@ if ($count>0) {
         echo "<td>" .$row['nombre_usuario']. "</td>";
         echo "<td>" .$row['carrera'].        "</td>";
         echo "<td>" .$row['no_cuenta'].      "</td>";
-        echo "<td>" .$row['direccion'].      "</td>";
+        echo "<td>" .$row['direcion'].       "</td>";
         echo "<td>" .$row['telefono'].       "</td>";
         echo "<td>" .$row['email'].          "</td>";
         

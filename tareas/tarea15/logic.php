@@ -3,11 +3,11 @@
 
 if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
-    echo "Eleccion: " . $evento_piedra;
+    echo "TU ELEGISTE: " . $evento_piedra . "Y GON: ";
     
     $power = array("PAPEL", $evento_piedra, "TIJERAS");
     $rand= $power[array_rand($power)];
-    echo "Poder: " .$rand;  
+    echo $rand;  
 
     if($evento_piedra==$rand){
         echo "ES UN EMPATE!:" .$rand;

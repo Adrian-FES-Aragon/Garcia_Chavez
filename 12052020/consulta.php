@@ -7,7 +7,8 @@
         border-collapse: collapse;
     }
 
-    td, th {
+    td,
+    th {
         padding: 15px 5px;
         margin: 8px 0px;
         display: table-cell;
@@ -34,8 +35,7 @@ $resultado = $conexion->query($consulta_sql);
 //retorna el numero de filas del resultado. Si encuentra más de uno lo usamos para imprimir el resultado en nuestra tabla
 $count = mysqli_num_rows($resultado);
 
-echo"
-    <table>
+echo "<table>
     <tr>
     <th>Usuario</th>
     <th>Carrera</th>
@@ -62,11 +62,9 @@ if ($count > 0) {
         echo "<td>" . $row['password'] .       "</td>";
         echo "<td>" . $row['FechaRegistro'] .  "</td>";
         echo "<td>" . $row['Permisos'] .       "</td>";
-        echo "</tr>";
-        echo "</table>";
+        echo "</tr> </table>";
     }
 } else {
     echo "<h1> style='color:red' Sin ningun registro</h1>";
 }
 ?>
-

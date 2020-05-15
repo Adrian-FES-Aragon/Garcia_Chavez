@@ -3,18 +3,18 @@
 
 if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
-    echo "TU ELEGISTE: " . $evento_piedra. '<br>'. "Y GON: " ;
-    
-    $power = array("PAPEL", $evento_piedra, "TIJERAS");
-    $rand= $power[array_rand($power)];
-    echo $rand;  
+    echo "TU ELEGISTE: " . $evento_piedra . '<br>' . "Y GON: ";
 
-    if($evento_piedra==$rand){
-        echo "".'<br>'. "ES UN EMPATE!" ;
-    }else if (isset($_POST['evento_papel'])) {
-        $evento_papel = $_POST['evento_papel'];
-        echo "TU ELEGISTE" . $evento_papel;
+    $power = array("PAPEL", $evento_piedra, "TIJERAS");
+    $rand = $power[array_rand($power)];
+    echo $rand;
+
+    if ($evento_piedra == $rand) {
+        echo "" . '<br>' . "ES UN EMPATE!";
     }
+} else if (isset($_POST['evento_papel'])) {
+    $evento_papel = $_POST['evento_papel'];
+    echo "TU ELEGISTE" . $evento_papel;
 }
 
 

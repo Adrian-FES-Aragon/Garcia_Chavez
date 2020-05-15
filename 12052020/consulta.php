@@ -1,7 +1,7 @@
 <style type="text/css">
     table {
         display: table;
-        border: 1px solid black;
+        border: 2px solid black;
         width: 100%;
         height: auto;
         border-collapse: collapse;
@@ -9,6 +9,7 @@
 
     td, th {
         padding: 15px 5px;
+        margin: 8px 0px;
         display: table-cell;
         text-align: left;
         vertical-align: middle;
@@ -34,8 +35,8 @@ $resultado = $conexion->query($consulta_sql);
 $count = mysqli_num_rows($resultado);
 
 echo"
-<table>
-<tr>
+    <table>
+    <tr>
     <th>Usuario</th>
     <th>Carrera</th>
     <th>No. Cuenta Institucional</th>
@@ -45,13 +46,12 @@ echo"
     <th>Contraseña</th>
     <th>Fecha de Registro</th>
     <th>Permisos</th>
-</tr>
-</table>";
+    </tr>";
+
 
 if ($count > 0) {
     //aqui se pintarian los registros de la BD 
     while ($row = mysqli_fetch_assoc($resultado)) {
-        echo "<table>";
         echo "<tr>";
         echo "<td>" . $row['nombre_usuario'] . "</td>";
         echo "<td>" . $row['carrera'] .        "</td>";

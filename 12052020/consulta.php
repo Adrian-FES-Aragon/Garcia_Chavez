@@ -1,24 +1,3 @@
-<style type="text/css">
-    table {
-        display: table;
-        border: 2px solid black;
-        width: 100%;
-        height: auto;
-        border-collapse: collapse;
-    }
-
-    td,
-    th {
-        padding: 15px 5px;
-        margin: 8px 0px;
-        display: table-cell;
-        text-align: left;
-        vertical-align: middle;
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-</style>
-
 <?php
 //se usa el require para requerir obligatoriamente el archivo conexion 
 require("conexion.php");
@@ -35,7 +14,7 @@ $resultado = $conexion->query($consulta_sql);
 //retorna el numero de filas del resultado. Si encuentra más de uno lo usamos para imprimir el resultado en nuestra tabla
 $count = mysqli_num_rows($resultado);
 
-echo "<table>
+echo "<table border='2'>
     <tr>
     <th>Usuario</th>
     <th>Carrera</th>
@@ -67,4 +46,3 @@ if ($count > 0) {
 } else {
     echo "<h1> style='color:red' Sin ningun registro</h1>";
 }
-?>

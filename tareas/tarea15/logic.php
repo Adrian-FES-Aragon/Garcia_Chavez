@@ -1,14 +1,33 @@
 <?php
+
+
+
 if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
     echo "Eleccion: " . $evento_piedra;
-} else if (isset($_POST['evento_papel'])) {
+
+    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
+    echo "POWER: " . $power[array_rand($power)];
+
+    echo "Gon escogio: " . $power;
+    
+    if ($power == $evento_piedra) {
+        echo "Es un empate";
+    }
+}
+
+if (isset($_POST['evento_papel'])) {
     $evento_papel = $_POST['evento_papel'];
     echo "Eleccion: " . $evento_papel;
-} else if (isset($_POST['evento_tijeras'])) {
+}
+
+
+if (isset($_POST['evento_tijeras'])) {
     $evento_tijeras = $_POST['evento_tijeras'];
     echo "Eleccion: " . $evento_tijeras;
 }
+
+
 /*
 if ($evento_piedra == $power) {
 

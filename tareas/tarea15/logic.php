@@ -29,4 +29,9 @@ if ($i == $opt) {
 } else {
     echo "¡FELICIDADES HAS GANADO!";
 }*/
+
+if ($i == $opt0) {
+    echo "Gon ha elegido lo mismo! es un empate, considerate afortunado";
+    header("index.php");
+} 
 ?>

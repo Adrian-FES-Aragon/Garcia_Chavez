@@ -1,5 +1,4 @@
 <?php
-
 if(isset($_POST['evento_piedra'])) {
     $evento_piedra=$_POST['evento_piedra'];
     echo "Tu nombre es: ".$evento_piedra;
@@ -15,6 +14,10 @@ if(isset($_POST['evento_tijeras'])) {
     echo "Tu nombre es: ".$evento_tijeras;
 }
 
+$input = array('evento_piedra', 'evento_papel','evento_tijeras');
+$rand_keys = array_rand($input, 2);
+echo $input[$rand_keys[0]] . "\n";
+echo $input[$rand_keys[1]] . "\n";
 
 ?>
 

@@ -1,25 +1,23 @@
 <?php
 if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
-    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
-    echo "POWER: " . $power[array_rand($power)];
 }
 
 if (isset($_POST['evento_papel'])) {
     $evento_papel = $_POST['evento_papel'];
-    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
-    echo "POWER: " . $power[array_rand($power)];
 }
 
 if (isset($_POST['evento_tijeras'])) {
     $evento_tijeras = $_POST['evento_tijeras'];
-    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
-    echo "POWER: " . $power[array_rand($power)];
 }
 
+/*
 $colores = array("rojo", "azul", "amarillo", "verde", "negro", "blanco");
 echo "Valor aleatorio: " . $colores[array_rand($colores)];
 
+$power = array($evento_papel, $evento_piedra, $evento_tijeras);
+echo "POWER: " . $power[array_rand($power)];
+*/
 ?>
 
 

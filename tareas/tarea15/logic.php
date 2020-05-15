@@ -1,14 +1,17 @@
 <?php
 if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
+    echo"Eleccion: " .$evento_piedra;
 }
 
 if (isset($_POST['evento_papel'])) {
     $evento_papel = $_POST['evento_papel'];
+    echo"Eleccion: " .$evento_papel;
 }
 
 if (isset($_POST['evento_tijeras'])) {
     $evento_tijeras = $_POST['evento_tijeras'];
+    echo"Eleccion: " .$evento_tijeras;
 }
 
 /*

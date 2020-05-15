@@ -7,7 +7,7 @@
         border-collapse: collapse;
     }
 
-    td, th {
+    td, th, tr {
         padding: 15px 5px;
         display: table-cell;
         text-align: left;

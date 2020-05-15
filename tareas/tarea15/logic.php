@@ -10,7 +10,7 @@ if(isset($_POST['evento_papel'])) {
     echo "Tu nombre es: ".$evento_papel;
 }
 
-if(isset($_POST['evento_piedra'])) {
+if(isset($_POST['evento_tijeras'])) {
     $evento_tijeras=$_POST['evento_tijeras'];
     echo "Tu nombre es: ".$evento_tijeras;
 }

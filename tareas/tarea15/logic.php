@@ -21,8 +21,6 @@ echo $input[$rand_keys[1]] . "<br>";
 echo $input[$rand_keys[2]] . "<br>";
 */
 $colores = array("rojo", "azul", "amarillo", "verde", "negro", "blanco");
-echo "Array original";
-var_export ($colores);
 echo "Valor aleatorio: ". $colores[array_rand($colores)];
 ?>
 

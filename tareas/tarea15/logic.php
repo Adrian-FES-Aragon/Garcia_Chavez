@@ -5,7 +5,7 @@ if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
     echo "Eleccion: " . $evento_piedra;
     
-    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
+    $power = array("PAPEL", $evento_piedra, "TIJERAS");
     $rand= $power[array_rand($power)];
     echo "Poder: " .$rand;  
 

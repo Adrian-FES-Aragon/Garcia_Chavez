@@ -48,3 +48,7 @@ if ($count > 0) {
     echo "<h1> style='color:red' Sin ningun registro</h1>";
 }
 ?>
+table{
+    border: 2px solid black;
+    
+}

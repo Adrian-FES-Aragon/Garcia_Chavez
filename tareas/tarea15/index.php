@@ -28,7 +28,7 @@
                         <div class="container">
                             <img src="images/roca.png" alt="Piedra" class="imagen" style="width: 100%">
                             <div class="middle">
-                                <input type="submit" class="btn" value="¡PIEDRA!" id="evento_piedra" name="eveto_piedra"/>
+                                <input type="submit" class="btn" value="¡PIEDRA!" id="evento_piedra" name="evento_piedra"/>
                             </div>
                         </div>
                     </td>

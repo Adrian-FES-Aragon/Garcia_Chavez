@@ -1,30 +1,25 @@
 <?php
-if(isset($_POST['evento_piedra'])) {
-    $evento_piedra=$_POST['evento_piedra'];
-    echo "Tu nombre es: ".$evento_piedra;
+if (isset($_POST['evento_piedra'])) {
+    $evento_piedra = $_POST['evento_piedra'];
+    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
+    echo "POWER: " . $power[array_rand($power)];
 }
 
-if(isset($_POST['evento_papel'])) {
-    $evento_papel=$_POST['evento_papel'];
-    echo "Tu nombre es: ".$evento_papel;
+if (isset($_POST['evento_papel'])) {
+    $evento_papel = $_POST['evento_papel'];
+    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
+    echo "POWER: " . $power[array_rand($power)];
 }
 
-if(isset($_POST['evento_tijeras'])) {
-    $evento_tijeras=$_POST['evento_tijeras'];
-    echo "Tu nombre es: ".$evento_tijeras;
+if (isset($_POST['evento_tijeras'])) {
+    $evento_tijeras = $_POST['evento_tijeras'];
+    $power = array($evento_papel, $evento_piedra, $evento_tijeras);
+    echo "POWER: " . $power[array_rand($power)];
 }
-/*
-$input = array('evento_piedra', 'evento_papel','evento_tijeras');
-$rand_keys = array_rand($input, 1);
-echo $input[$rand_keys[0]] . "<br>";
-echo $input[$rand_keys[1]] . "<br>";
-echo $input[$rand_keys[2]] . "<br>";
-*/
+
 $colores = array("rojo", "azul", "amarillo", "verde", "negro", "blanco");
-echo "Valor aleatorio: ". $colores[array_rand($colores)];
+echo "Valor aleatorio: " . $colores[array_rand($colores)];
 
-$power = array($evento_papel,$evento_piedra,$evento_tijeras);
-echo "POWER: " .$power[array_rand($power)] ;
 ?>
 
 

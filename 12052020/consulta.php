@@ -4,7 +4,7 @@ require("conexion.php");
 //no es requisito obligatorio, independiente de los erroes
 //include("conexion.php");
 
-$conexion=new mysqli('localhost', 'root', '', 'test_php');
+$conexion=new mysqli('127.0.0.1', 'root', '', 'test_php');
 
 //generar el query
 $consulta_sql="SELECT * FROM PERSONA";
@@ -23,6 +23,9 @@ echo"
     <th>Direccion</th>
     <th>Telefono</th>
     <th>Correo Electronico</th>
+    <th>Contraseña</th>
+    <th>Fecha de Registro</th>
+    <th>Permisos</th>
 </tr>
 </table>";
 
@@ -37,8 +40,9 @@ if ($count>0) {
         echo "<td>" .$row['direcion'].       "</td>";
         echo "<td>" .$row['telefono'].       "</td>";
         echo "<td>" .$row['email'].          "</td>";
-        
-        
+        echo "<td>" .$row['password'].       "</td>";
+        echo "<td>" .$row['FechaRegistro'].  "</td>";
+        echo "<td>" .$row['Permisos'].       "</td>";                
         echo "</table>";        
     }
 }else{

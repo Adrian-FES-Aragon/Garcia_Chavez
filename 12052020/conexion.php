@@ -1,5 +1,5 @@
 <?php  
-$host_db="localhost";
+$host_db="127.0.0.1";
 $user_db="root";
 $pass_db="";
 $name_db="test_php";

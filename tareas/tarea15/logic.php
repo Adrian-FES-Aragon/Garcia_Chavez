@@ -37,7 +37,7 @@ if (isset($_POST['evento_tijeras'])) {
     $evento_tijeras = $_POST['evento_tijeras'];
     echo "TU ELEGISTE: " . $evento_tijeras . '<br>' . "Y GON: ";
 
-    $power = array("!PAPEL¡", "!PIEDRA¡", $evento_tijeras);
+    $power = array("¡PAPEL!", "¡PIEDRA!", $evento_tijeras);
     $rand = $power[array_rand($power)];
     echo $rand;
 

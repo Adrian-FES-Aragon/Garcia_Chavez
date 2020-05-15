@@ -13,9 +13,14 @@ if(isset($_POST['evento_tijeras'])) {
     $evento_tijeras=$_POST['evento_tijeras'];
     echo "Tu nombre es: ".$evento_tijeras;
 }
-
+/*
 $input = array('evento_piedra', 'evento_papel','evento_tijeras');
 $rand_keys = array_rand($input, 1);
+echo $input[$rand_keys[0]] . "\n";
+echo $input[$rand_keys[1]] . "\n";
+*/
+$input = array("Neo", "Morpheus", "Trinity", "Cypher", "Tank");
+$rand_keys = array_rand($input, 2);
 echo $input[$rand_keys[0]] . "\n";
 echo $input[$rand_keys[1]] . "\n";
 

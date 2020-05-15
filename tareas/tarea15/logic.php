@@ -12,9 +12,9 @@ if (isset($_POST['evento_piedra'])) {
     if ($evento_piedra == $rand) {
         echo "" . '<br>' . "ES UN EMPATE!";
     }else if ($rand == "!TIJERAS¡" ) {
-        echo "FELICIDADES LOGRASTE GANAR!";
+        echo "" . '<br>' . "FELICIDADES LOGRASTE GANAR!";
     }else{
-        echo "HAS FALLADO INTENTALO DE NUEVO";
+        echo "" . '<br>' . "HAS FALLADO INTENTALO DE NUEVO :(";
     }
 
 } else if (isset($_POST['evento_papel'])) {
@@ -27,6 +27,10 @@ if (isset($_POST['evento_piedra'])) {
 
     if ($evento_papel == $rand) {
         echo "" . '<br>' . "ES UN EMPATE!";
+    }else if ($rand == "¡PIEDRA!" ) {
+        echo "" . '<br>' . "FELICIDADES LOGRASTE GANAR!";
+    }else{
+        echo "" . '<br>' . "HAS FALLADO INTENTALO DE NUEVO :(";
     }
 }
 if (isset($_POST['evento_tijeras'])) {
@@ -39,6 +43,10 @@ if (isset($_POST['evento_tijeras'])) {
 
     if ($evento_tijeras == $rand) {
         echo "" . '<br>' . "ES UN EMPATE!";
+    }else if ($rand == "¡PAPEL!" ) {
+        echo "" . '<br>' . "FELICIDADES LOGRASTE GANAR!";
+    }else{
+        echo "" . '<br>' . "HAS FALLADO INTENTALO DE NUEVO :(";
     }
 }
 

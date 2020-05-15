@@ -1,4 +1,4 @@
-<?php 
+<?php
 //se usa el require para requerir obligatoriamente el archivo conexion 
 require("conexion.php");
 //no es requisito obligatorio, independiente de los erroes
@@ -48,9 +48,13 @@ if ($count > 0) {
     echo "<h1> style='color:red' Sin ningun registro</h1>";
 }
 ?>
-table{
-    style=border: 2px solid black;
-    width: 100%;
-    height: auto;
-    border-spacing: 5px;
-}
+
+<style type="text/css">
+    table {
+        margin: 8px;
+        style=border: 2px solid black;
+        width: 100%;
+        height: auto;
+        border-spacing: 5px;
+    }
+</style>

@@ -7,7 +7,7 @@
         border-collapse: collapse;
     }
 
-    td, th, tr {
+    td, th, {
         padding: 15px 5px;
         display: table-cell;
         text-align: left;
@@ -62,6 +62,7 @@ if ($count > 0) {
         echo "<td>" . $row['password'] .       "</td>";
         echo "<td>" . $row['FechaRegistro'] .  "</td>";
         echo "<td>" . $row['Permisos'] .       "</td>";
+        echo "</tr>";
         echo "</table>";
     }
 } else {

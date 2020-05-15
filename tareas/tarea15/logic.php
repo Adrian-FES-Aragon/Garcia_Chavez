@@ -1,17 +1,18 @@
 <?php
 
-$opt0 = $_POST['evento_piedra'];
-$opt1 = $_POST['evento_papel'];
-$opt2 = $_POST['evento_tijeras'];
-
-echo "i: $i<br>";
-echo "opt:" .$opt0. "<br>";
-echo "opt:" .$opt1. "<br>";
-echo "opt:" .$opt2 ."<br>";
-
 if(isset($_POST['evento_piedra'])) {
     $evento_piedra=$_POST['evento_piedra'];
     echo "Tu nombre es: ".$evento_piedra;
+}
+
+if(isset($_POST['evento_papel'])) {
+    $evento_papel=$_POST['evento_piedra'];
+    echo "Tu nombre es: ".$evento_papel;
+}
+
+if(isset($_POST['evento_piedra'])) {
+    $evento_tijeras=$_POST['evento_tijeras'];
+    echo "Tu nombre es: ".$evento_tijeras;
 }
 
 

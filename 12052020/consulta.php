@@ -32,7 +32,7 @@ $resultado = $conexion->query($consulta_sql);
 //retorna el numero de filas del resultado. Si encuentra más de uno lo usamos para imprimir el resultado en nuestra tabla
 $count = mysqli_num_rows($resultado);
 
-echo">
+echo"
 <tr>
     <th>Usuario</th>
     <th>Carrera</th>

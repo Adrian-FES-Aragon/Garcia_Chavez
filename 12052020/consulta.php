@@ -1,13 +1,13 @@
 <style type="text/css">
     table {
         display: table;
-        border: 2px solid black;
+        border: 1px solid black;
         width: 100%;
         height: auto;
         border-collapse: collapse;
     }
 
-    td, th, {
+    td, th {
         padding: 15px 5px;
         display: table-cell;
         text-align: left;

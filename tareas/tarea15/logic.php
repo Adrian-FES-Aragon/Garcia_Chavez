@@ -10,11 +10,11 @@ $x[2] = $_GET['evento_tijeras'];
 
 $i = rand(0,2);
 
-echo "i: $i";
-echo "opt:  $opt0";  
-echo "opt:  $opt1";  
-echo "opt:  $opt2";  
-print_r(array_values($x));
+echo "i: $i<br>";
+echo "opt:  $opt0 <br>";  
+echo "opt:  $opt1 <br>";  
+echo "opt:  $opt2 <br>";  
+//print_r(array_values($x));
 /*
 if ($i == $opt) {
     echo "Gon ha elegido lo mismo! es un empate, considerate afortunado";

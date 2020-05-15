@@ -1,6 +1,5 @@
 <?php
 
-
 if (isset($_POST['evento_piedra'])) {
     $evento_piedra = $_POST['evento_piedra'];
     echo "TU ELEGISTE: " . $evento_piedra . '<br>' . "Y GON: ";
@@ -10,21 +9,16 @@ if (isset($_POST['evento_piedra'])) {
     echo $rand;
 
     if ($evento_piedra == $rand) {
-        echo '<script type="text/javascript">
-    alert("ES UN EMPATE");
-    window.location.href="index.php";
-    </script>';
-    } else if ($rand == "!TIJERAS¡") {
-        echo '<script type="text/javascript">
-          alert("GANASTE");
-          window.location.href="index.php";
-          </script>';
-    } else {
-        echo '<script type="text/javascript">
-    alert(""HAS FALLADO INTENTALO DE NUEVO :(");
-    window.location.href="index.php";
-    </script>';
+        echo "" . '<br>' . "ES UN EMPATE!";
+
+    }else if ($rand == "!TIJERAS¡" ) {
+        echo "" . '<br>' . "FELICIDADES LOGRASTE GANAR!";
+
+    }else{
+        echo "" . '<br>' . "HAS FALLADO INTENTALO DE NUEVO :(";
+
     }
+
 } else if (isset($_POST['evento_papel'])) {
     $evento_papel = $_POST['evento_papel'];
     echo "TU ELEGISTE: " . $evento_papel . '<br>' . "Y GON: ";
@@ -35,9 +29,9 @@ if (isset($_POST['evento_piedra'])) {
 
     if ($evento_papel == $rand) {
         echo "" . '<br>' . "ES UN EMPATE!";
-    } else if ($rand == "¡PIEDRA!") {
+    }else if ($rand == "¡PIEDRA!" ) {
         echo "" . '<br>' . "FELICIDADES LOGRASTE GANAR!";
-    } else {
+    }else{
         echo "" . '<br>' . "HAS FALLADO INTENTALO DE NUEVO :(";
     }
 }
@@ -51,9 +45,9 @@ if (isset($_POST['evento_tijeras'])) {
 
     if ($evento_tijeras == $rand) {
         echo "" . '<br>' . "ES UN EMPATE!";
-    } else if ($rand == "¡PAPEL!") {
+    }else if ($rand == "¡PAPEL!" ) {
         echo "" . '<br>' . "FELICIDADES LOGRASTE GANAR!";
-    } else {
+    }else{
         echo "" . '<br>' . "HAS FALLADO INTENTALO DE NUEVO :(";
     }
 }

@@ -11,19 +11,19 @@ if (isset($_POST['evento_piedra'])) {
 
     if ($evento_piedra == $rand) {
         echo "" . '<br>' . "ES UN EMPATE!";
-        echo'<script type="text/javascript">
+        echo '<script type="text/javascript">
     alert("ES UN EMPATE");
-    window.location.href="logic.php";
+    window.location.href="index.php";
     </script>';
     } else if ($rand == "!TIJERAS¡") {
-          echo '<script type="text/javascript">
+        echo '<script type="text/javascript">
           alert("GANASTE");
-          window.location.href="logic.php";
+          window.location.href="index.php";
           </script>';
     } else {
-          echo'<script type="text/javascript">
+        echo '<script type="text/javascript">
     alert(""HAS FALLADO INTENTALO DE NUEVO :(");
-    window.location.href="logic.php";
+    window.location.href="index.php";
     </script>';
     }
 } else if (isset($_POST['evento_papel'])) {

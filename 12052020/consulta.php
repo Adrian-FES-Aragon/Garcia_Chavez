@@ -14,7 +14,7 @@ $resultado = $conexion->query($consulta_sql);
 //retorna el numero de filas del resultado. Si encuentra más de uno lo usamos para imprimir el resultado en nuestra tabla
 $count = mysqli_num_rows($resultado);
 
-echo "<table border='2'>
+echo "<table align='center' border='2'>
     <tr>
     <th>Usuario</th>
     <th>Carrera</th>
@@ -30,7 +30,7 @@ echo "<table border='2'>
 
 if ($count > 0) {
     //aqui se pintarian los registros de la BD 
-    while ($row <= mysqli_fetch_assoc($resultado)) {
+    while ($row = mysqli_fetch_assoc($resultado)) {
         echo "<tr>";
         echo "<td>" . $row['nombre_usuario'] . "</td>";
         echo "<td>" . $row['carrera'] .        "</td>";
@@ -44,5 +44,5 @@ if ($count > 0) {
         echo "</tr> </table>";
     }
 } else {
-    echo "<h1> style='color:red' Sin ningun registro</h1>";
+    echo "<h1 style='color:red'>  Sin ningun registro</h1>";
 }

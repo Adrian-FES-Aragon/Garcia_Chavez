@@ -30,7 +30,7 @@ echo "<table border='2'>
 
 if ($count > 0) {
     //aqui se pintarian los registros de la BD 
-    while ($row = mysqli_fetch_assoc($resultado)) {
+    while ($row <= mysqli_fetch_assoc($resultado)) {
         echo "<tr>";
         echo "<td>" . $row['nombre_usuario'] . "</td>";
         echo "<td>" . $row['carrera'] .        "</td>";

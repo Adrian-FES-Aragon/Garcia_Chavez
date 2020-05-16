@@ -41,7 +41,8 @@ if ($count > 0) {
         echo "<td>" . $row['password'] .       "</td>";
         echo "<td>" . $row['FechaRegistro'] .  "</td>";
         echo "<td>" . $row['Permisos'] .       "</td>";
-        echo "</tr> </table>";
+        echo "</tr>";
+        echo "</table>";
     }
 } else {
     echo "<h1 style='color:red'>  Sin ningun registro</h1>";

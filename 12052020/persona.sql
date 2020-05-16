@@ -48,9 +48,9 @@ CREATE TABLE `persona` (
 
 INSERT INTO `persona` (`nombre_usuario`, `carrera`, `no_cuenta`, `direcion`, `telefono`, `email`, `password`, `FechaRegistro`, `Permisos`) VALUES
 ('Alberto Gonzalez Ledesm', 'ICO', 8411868, 'Enrique Torres Calderon #37', '5539554880', 'gonzalez_alberto@hotmail.com', '123456', '2018-10-30 20:22:01', 2),
-('Fernando Sánchez Beristain', 'ICO', 413010836, 'Calle Monterrey #11 Col Jardines de Guadalupe C.P. 57140 Cd. Nezahualcoyotl Estado de México', '5539229638', 'fernandoberistain2@hotmail.com', '123456', '2018-10-30 20:05:40', 2),
 ('Aaron Velazco Agustin', 'ICO', 413112576, 'Nube 8 Col. La peñas', '5539229638', 'fernandoberistain2@hotmail.com', '123456', '2018-10-30 20:05:26', 1),
-('David Mendoza Calette', 'ico', 1234567890, 'carmen no 186', '56406718', 'calette50@hotmail.com', 'citlali', '2018-10-26 15:25:33', 2);
+('David Mendoza Calette', 'ico', 1234567890, 'carmen no 186', '56406718', 'calette50@hotmail.com', 'citlali', '2018-10-26 15:25:33', 2),
+('Fernando Sánchez Beristain', 'ICO', 413010836, 'Calle Monterrey #11 Col Jardines de Guadalupe C.P. 57140 Cd. Nezahualcoyotl Estado de México', '5539229638', 'fernandoberistain2@hotmail.com', '123456', '2018-10-30 20:05:40', 2);
 
 --
 -- Índices para tablas volcadas

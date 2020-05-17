@@ -3,9 +3,9 @@
 require("conexion.php");
 //no es requisito obligatorio, independiente de los erroes
 //include("conexion.php");
-$conexion = new mysqli('127.0.0.1', 'root', '', 'test_php');
+$conexion = new mysqli('127.0.0.1', 'root', '', 'fes_aragon');
 //generar el query
-$consulta_sql = "SELECT * FROM PERSONA";
+$consulta_sql = "SELECT * FROM ALUMNO";
 //mandar el query por medio de la conexion y almacenaremos en una variable
 $resultado = $conexion->query($consulta_sql);
 //retorna el numero de filas del resultado. Si encuentra más de uno lo usamos para imprimir el resultado en nuestra tabla
@@ -32,15 +32,15 @@ if ($count > 0) {
     //aqui se pintarian los registros de la BD 
     while ($row = mysqli_fetch_assoc($resultado)) {
         echo "<tr>";
-        echo "<td>" . $row['nombre_usuario'] . "</td>";
-        echo "<td>" . $row['carrera'] .        "</td>";
-        echo "<td>" . $row['no_cuenta'] .      "</td>";
-        echo "<td>" . $row['direcion'] .       "</td>";
-        echo "<td>" . $row['telefono'] .       "</td>";
+        echo "<td>" . $row['user_name'] . "</td>";
+        echo "<td>" . $row['career'] .        "</td>";
+        echo "<td>" . $row['code'] .      "</td>";
+        echo "<td>" . $row['address'] .       "</td>";
+        echo "<td>" . $row['number'] .       "</td>";
         echo "<td>" . $row['email'] .          "</td>";
         echo "<td>" . $row['password'] .       "</td>";
-        echo "<td>" . $row['FechaRegistro'] .  "</td>";
-        echo "<td>" . $row['Permisos'] .       "</td>";
+        echo "<td>" . $row['registration_date'] .  "</td>";
+        echo "<td>" . $row['permissions'] .       "</td>";
         echo "</tr>";
     }
     echo "</table>";
